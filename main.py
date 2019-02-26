@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 class PythonOrgSearch(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome('C:/Users/mb_ro/addToPath')
+        self.driver = webdriver.Chrome('C:/Users/mb_ro/addToPath/chromedriver')
 
     def test_search_in_python_org(self):
         driver = self.driver
